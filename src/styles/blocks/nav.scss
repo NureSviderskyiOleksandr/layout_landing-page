@@ -1,0 +1,11 @@
+.nav{
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  &__item {
+    font-size: 22px;
+  }
+}

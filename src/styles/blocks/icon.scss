@@ -1,0 +1,23 @@
+.icon {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.icon--phone{
+  background-image: url("../images/icon-phone.png");
+}
+
+.icon--burger-menu{
+  background-image: url("../images/icon-burger-menu.png");
+
+  // &:hover {
+  //   transition: background-image 0.3s;
+  //   background-image: url("../images/icon-burger-menu-hover.png");
+  // }
+}
+
+.icon--close{
+  background-image: url("../images/icon-close.png");
+}
