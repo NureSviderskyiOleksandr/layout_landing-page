@@ -1,8 +1,12 @@
 .top-bar {
-  padding: 24px 20px;
+  padding-block: 28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @include on-tablet {
+    padding-block: 36px;
+  }
 
   &__logo {
     display: flex;
@@ -11,5 +15,9 @@
   &__icons {
     display: flex;
     gap: 24px;
+
+    @include on-tablet {
+      gap: 32px;
+    }
   }
 }

@@ -25,3 +25,10 @@ a {
   text-decoration: none;
   color:black;
 }
+
+img {
+  transition-duration: 0.2s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
