@@ -1,27 +1,19 @@
 .footer {
   @include contest-padding-inline;
-
-  position: sticky;
-  bottom: 0;
+  margin-bottom: 64px;
   display: grid;
-  z-index: 0;
   row-gap: 104px;
 
   @include on-tablet {
     row-gap: 120px;
-  }
-
-  @include on-desktop {
-    row-gap: 120px;
-  }
-
-  margin-bottom: 64px;
-
-  @include on-tablet {
     margin-bottom: 120px
   }
 
   @include on-desktop {
+    position: sticky;
+    bottom: 0;
+    z-index: 0;
+    row-gap: 120px;
     margin-bottom: 120px;
   }
 }
