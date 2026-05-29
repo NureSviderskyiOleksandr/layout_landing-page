@@ -4,7 +4,7 @@
   position: sticky;
   bottom: 0;
   display: grid;
-  z-index: -1;
+  z-index: 0;
   row-gap: 104px;
 
   @include on-tablet {

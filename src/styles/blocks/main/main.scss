@@ -19,7 +19,9 @@
 }
 
 .main {
+  position: relative;
   background-color: #fff;
+  z-index: 1;
 
   &__content {
     display: grid;
