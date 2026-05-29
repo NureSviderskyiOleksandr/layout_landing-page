@@ -29,4 +29,22 @@
       transform: scale(1);
     }
   }
+
+  &__item {
+    &--desktop {
+      display: none;
+
+      @include on-desktop {
+        display: block;
+      }
+    }
+
+    &--mobile {
+      display: block;
+
+      @include on-desktop {
+        display: none;
+      }
+    }
+  }
 }
