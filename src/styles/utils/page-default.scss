@@ -28,7 +28,9 @@ a {
 
 img {
   transition-duration: 0.2s;
+
   &:hover {
+    cursor: pointer;
     transform: scale(1.05);
   }
 }
