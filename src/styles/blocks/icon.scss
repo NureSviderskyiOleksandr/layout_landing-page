@@ -35,10 +35,12 @@
     transition-duration: 0.2s;
   }
 
-  &:hover &__text {
-    opacity: 1;
-    pointer-events: all;
-    transform: translateX(0);
+  @include on-desktop {
+    &:hover &__text {
+      opacity: 1;
+      pointer-events: all;
+      transform: translateX(0);
+    }
   }
 }
 

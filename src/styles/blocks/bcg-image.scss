@@ -8,7 +8,9 @@
   background-repeat: no-repeat;
   grid-column: 1 / -1;
   z-index: 1;
-  position: relative;
+  position: sticky;
+  bottom: 0;
+  z-index: 0;
 
   @include on-tablet {
     height: 400px;
